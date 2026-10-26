@@ -1,0 +1,7 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Tesla Bot - sign-in complete</title></head>
+<body style="font-family:sans-serif;max-width:40em;margin:3em auto">
+<h1>Tesla sign-in complete</h1>
+<p>Copy this whole page address (URL) and send it back to Tesla Bot. The code expires in a few minutes.</p>
+<p>Code: <code id="c"></code></p>
+<script>var p=new URLSearchParams(location.search);document.getElementById('c').textContent=p.get('code')||p.get('error')||'(none)';</script>
+</body></html>
